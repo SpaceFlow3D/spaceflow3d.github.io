@@ -1,9 +1,11 @@
-# SpaceFlow project website hosting
+# SpaceFlow project website
 
 **https://spaceflow3d.github.io/**
 
-This repository hosts the generated SpaceFlow website at the organization root address.
+Edit the website in [SpaceFlow3D/spaceflow's project-webpage branch](https://github.com/SpaceFlow3D/spaceflow/tree/project-webpage). GitHub Pages publishes that branch at `/spaceflow/`.
 
-Edit the website in [SpaceFlow3D/spaceflow's project-webpage branch](https://github.com/SpaceFlow3D/spaceflow/tree/project-webpage). Its deployment workflow builds and validates the source, then updates this repository automatically. GitHub Pages publishes this repository's `main` branch.
+This repository provides the organization root address. Its entry pages load the current published website and gallery while keeping the root URLs in the browser. Relative assets come from the current project site, and section links stay on the root page. A self-contained snapshot of the website and its assets provides a fallback if the project page cannot be loaded. No cross-repository deployment credential is needed.
 
-The research code is in [SpaceFlow3D/spaceflow's main branch](https://github.com/SpaceFlow3D/spaceflow).
+Push website updates to `project-webpage`; the root entry pages use the updated publication automatically. GitHub Pages serves this repository's `main` branch.
+
+Research code: [SpaceFlow3D/spaceflow's main branch](https://github.com/SpaceFlow3D/spaceflow).
